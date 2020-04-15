@@ -25,4 +25,7 @@ print a
 content = dir(math)
 
 print content
+
+# globals()函数
+
 print globals().keys()
