@@ -1,13 +1,14 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
-# 可写函数说明
+# *是将参数以元组的形式进行传递
 
 
 def printinfo(arg1, *vartuple):
     "打印任何传入的参数"
     print "输出: "
     print arg1
+    print vartuple
     vartuple = [1, 2, 3]
     for var in vartuple:
         print var
